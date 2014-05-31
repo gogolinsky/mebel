@@ -3067,3 +3067,27 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/05/31 16:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\domains\mebel.ru\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\domains\mebel.ru\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Y:\domains\mebel.ru\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Y:\domains\mebel.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/31 16:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\domains\mebel.ru\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\domains\mebel.ru\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Y:\domains\mebel.ru\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Y:\domains\mebel.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/31 16:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in Y:\domains\mebel.ru\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Y:\domains\mebel.ru\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Y:\domains\mebel.ru\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Y:\domains\mebel.ru\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
