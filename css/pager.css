@@ -1,0 +1,90 @@
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @since 1.0
+ */
+
+ul.yiiPager li
+{
+	display:inline-block;
+}
+
+ul.yiiPager .next,
+ul.yiiPager .previous {
+    position: relative;
+}
+
+ul.yiiPager .next,
+ul.yiiPager .previous
+{
+    margin: 0 25px;
+}
+
+ul.yiiPager .next a,
+ul.yiiPager .previous a {
+    border: none!important;
+}
+
+ul.yiiPager .next:after,
+ul.yiiPager .previous:after {
+    position: absolute;
+    z-index: -1;
+    top: -7px;
+}
+
+ul.yiiPager .next:after
+{
+    right: -40px;
+    content: url(/images/next.png);
+}
+ul.yiiPager .previous:after
+{
+    left: -40px;
+    content: url(/images/prev.png);
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:solid 3px #000;
+    border-radius: 3px;
+	font-weight:bold;
+	padding: 4px 10px;
+	text-decoration:none;
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+	#border:solid 3px #0e509e;
+    text-decoration: underline;
+}
+
+ul.yiiPager .selected a
+{
+	font-weight:bold;
+    text-decoration: underline;
+}
+
+ul.yiiPager .hidden a
+{
+	#border:solid 3px #DEDEDE;
+	#color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:none;
+}
